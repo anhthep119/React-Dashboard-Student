@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.navbar-brand {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.container-btn {
+    display: flex;
+    gap: 10px;
+}
+
+form {
+    margin-bottom: 0px;
+}
+
+.container {
+    display: flex;
+    width: 100vw; /* Full width of the viewport */
+    padding: 20px; /* Optional padding */
+}
+
+.list-group {
+    width: 300px; /* Adjust width as needed */
+    margin-right: 20px; /* Space between list-group and table */
+    margin-top: 30px;
+}
+
+.container-table {
+    flex-grow: 1;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#containerbtn {
+    text-align: center;
+    justify-content: start;
+}
+
+#containerbtndelete {
+    margin-right: 10px;
+}
+
+#icon {
+    margin-right: 5px;
+}
+
+.btnedit {
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#btnedit {
+    color: orange;
+}
+
+#btndelete {
+    color: red;
+}
+.btndelete{
+    background-color: red;
+}
+.btnedit{
+    background-color: orange;
+}
+
+#btneye {
+    color: blueviolet;
+}
+
+.textfooter {
+    justify-content: end;
+}
+
+.text-input-1 {
+    margin-left: 500px;
+}
+
+.label-1 {
+    margin-left: 700px;
+}
+
+.trboil {
+    background: black;
+}
+
+#btnthem {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+}
+
+.popup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.popup-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.btn {
+    margin: 5px;
+}
+
